@@ -29,7 +29,6 @@ public class RideController {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(rideService.requestRide(rideRequest));
     }
-
     @GetMapping("/{rideId}")
     public ResponseEntity<RideResponse> getRideById(
             @PathVariable String rideId){

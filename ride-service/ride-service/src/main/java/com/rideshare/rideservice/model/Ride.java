@@ -26,7 +26,7 @@ public class Ride {
     private String riderId;
 
     // who accepted the ride
-    @Column(nullable = false)
+
     private String driverId;
 
     @Column(nullable = false)
